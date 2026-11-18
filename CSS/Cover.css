@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: url("../Images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 42px;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+h1 span {
+  color: aqua;
+  display: block;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Berlin Sans FB";
+  font-weight: 100;
+}
+
+h3 span {
+  color: aqua;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.card {
+  
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  height:400px;
+  background: #fff;
+  border-radius: 2%;
+}
+
+.card label{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    font-family: "Arial";
+}
+
+.card textarea{
+    margin: 10px;
+    background: #fff;
+    border: solid 2px #6060604e;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.card input{
+    margin: 5px;
+    padding: 15px;
+    margin-left: 25px;
+    border: solid 2px #6060604e;
+    background: #fff;
+    border-radius: 10px;
+
+
+}
+.btn{
+    position: absolute;
+    transform: translate(540px,-185px);
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+}
+.btn button{
+    margin: 15px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Arial";
+    font-size: 16px;
+
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Cover.css">
+</head>
+<body>
+     <h1>Ceaser <span>Chiper</span></h1>
+     <H3> ENCRYPT &nbsp; <span>&</span>&nbsp;  DECRYPT  TEXT USING  SHIFT KEY</H3>
+     <div class="container">
+         <div class="card">
+           <label>Input (Plain Text/Chiper Text)</label>
+           <textarea id="plainText" placeholder="Enter Message"></textarea>
+           <label>Key(Shift)</label>
+           <input id="key" placeholder="Enter Shift Value (e.g 3)" type="number"></input>
+           <div class="btn">
+             <button type="submit" id="encrypt-btn" onclick="Encrypt()">Encrypt</button><br>
+             <button type="submit" id="decrypt-btn" onclick="Decrypt()">Decrypt</button><br>
+             <button type="reset" id="reset-btn" onclick="resetForm()">Delete</button>
+           </div>
+           <label>Result(Chiper/Plain Text)</label>\
+           <textarea id="decryptText" placeholder="Enter Message"></textarea>
+        </div>
+     </div>
+</body>
+<script src="../JS/script.js"></script>
+</html>
