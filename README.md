@@ -25,4 +25,4 @@ using simple caesar chiper algoritham
 **Previwe**
 ## Project Screenshot
 
-![Caesar Cipher](Images/Demo.png)
+![Caesar Cipher](Images/demo.png)
